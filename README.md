@@ -15,7 +15,7 @@ __Select list in this format:__
 
     username|password|*
 
-__* is a wildcard for any additional data.__
+___* is a wildcard for any additional data.___
 
 __Example:__
 
