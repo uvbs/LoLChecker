@@ -5,6 +5,10 @@ LoLChecker
 ![LoLChecker IMAGE](http://abload.de/img/unbenannt22rg7.png "LoLChecker")
 
 
+#### Currently only X64 build is available ####
+##### Compile it yourself for other platforms #####
+
+
 ## Instructions:
 
 __Select list in this format:__
