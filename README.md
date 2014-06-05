@@ -3,7 +3,7 @@ LoLChecker
 
 ## Instructions:
 
-1. Select list in this format:
+__1. Select list in this format:__
 
     username|password|*
 
