@@ -3,10 +3,20 @@ LoLChecker
 
 ## Instructions:
 
-__1. Select list in this format:__
+__Select list in this format:__
 
     username|password|*
 
-    '*' is a wildcard for any additional data.
+__'*' is a wildcard for any additional data.__
+
+__Example:__
+
+    acc1|pw1|
+    acc2|pw2|Some Country
+    acc3|pw3|Korea|LEVEL100
+    accN|pwN|rnd!"§%2/-äÜ!"§*'!
+
+__Happy checking!__
+
 
 ![LoLChecker IMAGE](http://abload.de/img/unbenannt22rg7.png "LoLChecker")
