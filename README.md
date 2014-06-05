@@ -1,13 +1,17 @@
 LoLChecker
 ==========
 
+
+![LoLChecker IMAGE](http://abload.de/img/unbenannt22rg7.png "LoLChecker")
+
+
 ## Instructions:
 
 __Select list in this format:__
 
     username|password|*
 
-__'*' is a wildcard for any additional data.__
+__* is a wildcard for any additional data.__
 
 __Example:__
 
@@ -19,4 +23,4 @@ __Example:__
 __Happy checking!__
 
 
-![LoLChecker IMAGE](http://abload.de/img/unbenannt22rg7.png "LoLChecker")
+
