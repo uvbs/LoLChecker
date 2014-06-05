@@ -24,5 +24,5 @@ __Happy checking!__
 
 ## Notice
 
-##### Currently only X64 build is available
-###### Compile it yourself for other platforms
+##### Currently only X64 build is available.
+###### Compile it yourself for other platforms.
