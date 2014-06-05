@@ -1,3 +1,5 @@
+/* Author: S3RB31  */
+
 #include <winhttp.h>
 #include <wincrypt.h>
 
@@ -13,6 +15,7 @@ class CHTTP
 {
 public:
 
+
 	CHTTP();
 	~CHTTP();
 
@@ -22,20 +25,20 @@ public:
 
 	std::basic_string<byte> GetResponse();
 	std::wstring GetResponseHeader();
-	int GetLastErrorCode() { return m_lastErrorCode; }
-	bool IsOpen() { return this->m_hInternet > 0; }
+	int GetLastErrorCode() { return this->lastErrorCode; }
+	bool IsOpen() { return this->hInternet > 0; }
 
-	void SetAgentName(std::wstring &strAgentName) { m_strAgentName = strAgentName; }
-	void SetFlags(int flags, bool bAdd) { bAdd ? m_iFlags = m_iFlags | flags : m_iFlags = flags; }
+	void SetAgentName(std::wstring &strAgentName) { this->strAgentName = strAgentName; }
+	void SetFlags(int flags, bool bAdd) { bAdd ? this->iFlags = this->iFlags | flags : this->iFlags = flags; }
 
 private:
 
-	HINTERNET m_hInternet;
-	HINTERNET m_hRequest;
-	HINTERNET m_hSession;
+	HINTERNET hInternet;
+	HINTERNET hRequest;
+	HINTERNET hSession;
 	
-	std::wstring m_strAgentName;
+	std::wstring strAgentName;
 
-	int m_iFlags;
-	int m_lastErrorCode;
+	int iFlags;
+	int lastErrorCode;
 };

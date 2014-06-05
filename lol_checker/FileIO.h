@@ -1,3 +1,6 @@
+/* Author: S3RB31  */
+#include <windows.h>
+
 #pragma once
 
 class FileIO

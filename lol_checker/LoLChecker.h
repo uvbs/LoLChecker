@@ -1,5 +1,4 @@
 #include <windows.h>
-#include <string>
 
 #include "CHTTP.h"
 #include "CList.h"

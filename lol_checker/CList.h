@@ -1,6 +1,8 @@
-#include <windows.h>
+/* Author: S3RB31 */
+
 #include <string>
 #include <deque>
+
 #include "FileIO.h"
 
 #pragma once
@@ -9,6 +11,8 @@ class CList
 {
 public:
 	
+	
+
 	struct UserData
 	{
 		std::string strUser;

@@ -103,7 +103,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "LoLChecker bY S3RB31 - priv8 t00l xD", 0));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "LoLChecker", 0));
         captcha_input->setText(QString());
         counter_label->setText(QApplication::translate("MainWindow", "0/0", 0));
         button_check->setText(QApplication::translate("MainWindow", "Check", 0));
