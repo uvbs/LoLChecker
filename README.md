@@ -2,7 +2,7 @@ LoLChecker
 ==========
 
 
-![LoLChecker IMAGE](http://abload.de/img/unbenannt22rg7.png "LoLChecker")
+![LoLChecker IMAGE](http://abload.de/img/unbenannt22rg7.png  "LoLChecker")
 
 
 ## Instructions
